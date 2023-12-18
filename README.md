@@ -12,16 +12,17 @@ This is a simple Express.js server with MongoDB integration, providing endpoints
 2. add .env file add the desire port and mongo db connection string
 3. npm install
 4. npm start
-5. The server will run on http://localhost:3000 (or the port specified in the environment variable PORT).
+5. The server will run on http://localhost:8000 (or the port specified in the environment variable PORT).
 6. API Endpoints
     Create a new user
      Endpoint: POST /addusers
      Request Body:
-     ```bash
+     ```
        {
-  "name": "pavan kumar",
-  "age": 21
-}
+        "name": "pavan kumar",
+        "age": 21
+      }
+   ```
 
 Fetch users with filters, sorting, and pagination
 Endpoint: GET /users
