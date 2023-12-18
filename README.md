@@ -17,13 +17,12 @@ This is a simple Express.js server with MongoDB integration, providing endpoints
     Create a new user
      Endpoint: POST /addusers
      Request Body:
-     ```
+     ```bash
        {
   "name": "pavan kumar",
   "age": 21
 }
 
-     ```
 Fetch users with filters, sorting, and pagination
 Endpoint: GET /users
 Query Parameters:
