@@ -33,5 +33,5 @@ order (optional): Sorting order ('asc' or 'desc', default is 'asc').
 page (optional): Page number for pagination (default is 1).
 limit (optional): Number of users per page (default is 10).
 
-URL : curl http://localhost:3000/users?name=John&sortBy=age&order=asc&page=2&limit=10
+URL : curl http://localhost:3000/users?name=pavan&sortBy=age&order=asc&page=2&limit=10
 
