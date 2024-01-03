@@ -18,7 +18,7 @@ try {
 }
 
 try {
-  mongoose.connect(process.env.DB_URL);
+  mongoose.connect(process.env.DB_URL_NETWORK);
   console.log(`connected to the database successfully`);
 } catch (error) {
   console.log(`Error while connecting to the database, error : ${error}`);
